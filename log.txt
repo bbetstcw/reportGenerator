@@ -1,0 +1,1603 @@
+commit 7b28e9a4d15a0ce5742957121cfccbe33a8f2ebb
+Author: jierong <jierong@microsoft.com>
+Date:   Thu Jul 30 16:23:58 2015 +0800
+
+    Adding load-balancer-multivip and UDR/IPF to 815
+    
+    GA for MultiVIP, UDR/IPF is 7/30/2015.
+
+A	articles/load-balancer-multivip.md
+A	articles/media/load-balancer-multivip/Figure1.png
+M	articles/virtual-networks-udr-how-to.md
+M	articles/virtual-networks-udr-overview.md
+
+commit 22ef1980fd3ba7e29bc16fe42c080b91b612689d
+Merge: b281681 cd99833
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Wed Jul 29 19:44:19 2015 +0800
+
+    Merge branch 'master' into stage
+    
+    # Conflicts:
+    #	articles/mysql-database-tech-faq.md
+
+commit cd99833342548e839c0e018822366d9809be1bda
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Wed Jul 29 19:42:27 2015 +0800
+
+    冲突处理
+
+M	articles/mysql-database-tech-faq.md
+D	articles/mysql.md
+
+commit b2816811950ee0ceac8b7b7df6c3b9c74ede863f
+Merge: 0f15503 3b73302
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Wed Jul 29 19:37:49 2015 +0800
+
+    Merge remote-tracking branch 'origin/master' into stage
+    
+    # Conflicts:
+    #	articles/mysql-database-tech-faq.md
+
+commit 3b73302716cd773c2211c521ab387b76133ee7ae
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Wed Jul 29 19:31:42 2015 +0800
+
+    update mysql doc with date
+    
+    updated with date
+
+A	articles/mysql-database-ssl-connection.md
+M	articles/mysql.md
+
+commit 1e7a4595d175e6ec9d5a7db94c3239dab9c78d57
+Author: Sofia Liu <v-sofliu@microsoft.com>
+Date:   Mon Jul 27 14:00:36 2015 +0800
+
+    MySQL技术文档导航页面修改并增加FAQ
+    
+    技术文档导航页面修改， 在FAQ中增加问题为什么连接不上DB
+
+A	articles/mysql.md
+
+commit ff906227b24f9e1f341a553423d5f58cc2d9f09d
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Wed Jul 29 18:28:57 2015 +0800
+
+    处理冲突
+
+M	articles/mysql-database-tech-faq.md
+
+commit 0f15503a2001f6329a5a30e1917631b5c1f2f67d
+Author: jierong <jierong@microsoft.com>
+Date:   Tue Jul 28 17:11:08 2015 +0800
+
+    updating downloads.md and hdinstight-provision-clusters.md
+    
+    For downloads.md, removed one broken link as it is also removed in ACOM
+    For hdinsight-provision-clusters.md, removed 2 empty links.
+
+M	articles/hdinsight-provision-clusters.md
+M	downloads.md
+
+commit ee9e4d19236ed5e9f05378fd63b80a2a2b04da0c
+Author: jierong <jierong@microsoft.com>
+Date:   Tue Jul 28 15:53:29 2015 +0800
+
+    updating links for broken links and empty links.
+    
+    For broken links, we fix the urls.
+    For empty links, we removed them as we don't have additional info to
+    konw where they have been migrated to.
+    
+    Impacted files:
+    
+    Empty links:
+    articles\developerdifferences.md
+    articles\hdinsight-provision-clusters.md
+    articles\load-balance-virtual-machines.md
+    articles\sql-database-manage-azure-ssms.md
+    articles\virtual-machines-provision-sql-server.md
+    includes\load-balancing-vms.md
+    includes\sql-azure-management.md
+    
+    Broken links:
+    developer\other\open-source-software.md
+    articles\developerdifferences.md
+    develop\java.md
+    downloads\downloads.md
+
+M	articles/developerdifferences.md
+M	articles/hdinsight-provision-clusters.md
+M	articles/load-balance-virtual-machines.md
+M	articles/sql-database-manage-azure-ssms.md
+M	articles/virtual-machines-provision-sql-server.md
+M	develop/java.md
+M	develop/other/open-source-software.md
+M	downloads/downloads.md
+M	includes/load-balancing-vms.md
+M	includes/sql-azure-management.md
+
+commit db7f2f0c47c3ec2dc6df8edae220c7f1c460b088
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 22:46:28 2015 +0800
+
+    再改！！！！
+
+M	articles/mysql-database-ssl-connection.md
+
+commit 4c582c494bf3473a028fbbae7faf193cdf0a8492
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 22:26:14 2015 +0800
+
+    再改代码块！！！！
+
+M	articles/mysql-database-ssl-connection.md
+
+commit 2569db4ce093923f3a51e0b607014316fcbe1f4f
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 22:15:47 2015 +0800
+
+    再修代码块！！！
+
+M	articles/mysql-database-ssl-connection.md
+
+commit 84c3635d10622c81d9bab13a78d6c818e6d1adc1
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 21:59:56 2015 +0800
+
+    再调格式
+
+M	articles/mysql-database-ssl-connection.md
+
+commit cd20d533411ef5acee522ad6c78702cf638c8287
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 21:23:37 2015 +0800
+
+    再调代码块格式！
+
+M	articles/mysql-database-ssl-connection.md
+
+commit beb16808de8da29360b487885b24309fc9170060
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 21:19:31 2015 +0800
+
+    再次调整代码块
+
+M	articles/mysql-database-ssl-connection.md
+
+commit 594fd16ae01c2f6747aaa755d79e56a354b9bc38
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 20:53:13 2015 +0800
+
+    修改ssl-connection文档代码块格式和图片链接
+
+M	articles/mysql-database-ssl-connection.md
+
+commit 29ec3251d4293f43f23d0dc8207de55c0e1e9595
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 20:33:38 2015 +0800
+
+    再次调整格式
+
+M	services/mysql.md
+
+commit 43379503f9830ea1fec74b1cf3d559b3f3db761f
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 20:03:05 2015 +0800
+
+    再次修复MySQL Landing page格式错误
+
+M	services/mysql.md
+
+commit cd4ddad0de5a23fd43560bb21a4ebaff921e07c9
+Author: Sofia Liu <v-sofliu@microsoft.com>
+Date:   Mon Jul 27 18:58:11 2015 +0800
+
+    修复SSL的image reference
+
+M	articles/mysql-database-ssl-connection.md
+
+commit 386375eed7a49c335f13037bcc130d9c244926e1
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 18:15:36 2015 +0800
+
+    处理冲突
+
+M	articles/virtual-machines-windows-tutorial-classic-portal.md
+
+commit d6575ef356931bb0eb4cb2518ff73879a3868222
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 17:16:14 2015 +0800
+
+    处理automation 500错误。
+
+M	services/automation.md
+
+commit 2282e167a9049f7770aaec86f6843bca9cc35372
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 17:39:42 2015 +0800
+
+    修复MySQL代码问题。
+
+M	services/mysql.md
+
+commit 3e77c03548db5906a3a789a454ed7ec0763b12f7
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 27 17:16:14 2015 +0800
+
+    处理automation 500错误。
+
+M	services/automation.md
+
+commit 7da59faf11b5360fb7f160e19c8c04d15a821c58
+Author: Sofia Liu <v-sofliu@microsoft.com>
+Date:   Mon Jul 27 16:54:42 2015 +0800
+
+    更改MYSQL导航页
+    
+    remove from ariticle forder, and add to service forder.
+
+D	articles/mysql.md
+M	services/mysql.md
+
+commit bfba9d16fdb33197b4bbc0f77ce65125d1805f0f
+Author: Sofia Liu <v-sofliu@microsoft.com>
+Date:   Mon Jul 27 15:52:20 2015 +0800
+
+    update mysql doc with date
+    
+    updated with date
+
+M	articles/mysql-database-connection-pool.md
+M	articles/mysql-database-ssl-connection.md
+M	articles/mysql-database-tech-faq.md
+M	articles/mysql.md
+
+commit 55bb93630eb48937be3858d65d63d843839ca834
+Author: Sofia Liu <v-sofliu@microsoft.com>
+Date:   Mon Jul 27 14:00:36 2015 +0800
+
+    MySQL技术文档导航页面修改并增加FAQ
+    
+    技术文档导航页面修改， 在FAQ中增加问题为什么连接不上DB
+
+M	articles/mysql-database-tech-faq.md
+A	articles/mysql.md
+
+commit a0e6c2f1b4f7278a75e01d3e8ea9822c291b5187
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sat Jul 25 23:08:42 2015 +0800
+
+    2015.7 Technical Content Refresh - Mobile-services files check in
+
+A	articles/media/mobile-services-javascript-backend-android-get-started-push-EC/mobile-insert-script-push2.png
+A	articles/media/mobile-services-javascript-backend-android-get-started-push-EC/mobile-portal-data-tables.png
+A	articles/media/mobile-services-javascript-backend-android-get-started-push-EC/mobile-quickstart-push1-android.png
+A	articles/media/mobile-services-javascript-backend-android-get-started-push-EC/mobile-services-android-virtual-device-manager-edit.png
+A	articles/media/mobile-services-javascript-backend-android-get-started-push-EC/mobile-services-android-virtual-device-manager.png
+A	articles/media/mobile-services-javascript-backend-android-get-started-push-EC/mobile-services-import-android-properties.png
+A	articles/media/mobile-services-javascript-backend-android-get-started-push/mobile-quickstart-push1-android.png
+A	articles/media/mobile-services-javascript-backend-android-get-started-push/mobile-services-android-virtual-device-manager-edit.png
+A	articles/media/mobile-services-javascript-backend-android-get-started-push/mobile-services-android-virtual-device-manager.png
+A	articles/media/mobile-services-windows-how-to-import-publishsettings/mobile-add-connected-service.png
+A	articles/media/mobile-services-windows-how-to-import-publishsettings/mobile-create-service-from-vs2013.png
+A	articles/media/mobile-services-windows-how-to-import-publishsettings/mobile-import-azure-subscription-2.png
+A	articles/media/mobile-services-windows-how-to-import-publishsettings/mobile-import-azure-subscription.png
+M	articles/mobile-services-how-to-register-windows-live-connect-single-sign-on.md
+M	articles/mobile-services-how-to-use-multiple-clients-single-service.md
+M	articles/mobile-services-how-to-use-server-scripts.md
+M	articles/mobile-services-html-call-custom-api.md
+M	articles/mobile-services-html-get-started-data.md
+M	articles/mobile-services-html-get-started-users.md
+M	articles/mobile-services-html-get-started.md
+M	articles/mobile-services-html-how-to-use-client-library.md
+M	articles/mobile-services-ios-build-realtime-apps-pusher.md
+M	articles/mobile-services-ios-call-custom-api.md
+M	articles/mobile-services-ios-get-started-data.md
+M	articles/mobile-services-ios-get-started-mobile-analytics.md
+M	articles/mobile-services-ios-get-started-offline-data.md
+M	articles/mobile-services-ios-get-started-users.md
+M	articles/mobile-services-ios-get-started.md
+M	articles/mobile-services-ios-handling-conflicts-offline-data.md
+M	articles/mobile-services-ios-how-to-use-client-library.md
+M	articles/mobile-services-javascript-backend-android-get-started-push-EC.md
+M	articles/mobile-services-javascript-backend-android-get-started-push.md
+M	articles/mobile-services-javascript-backend-android-push-notifications-app-users.md
+M	articles/mobile-services-javascript-backend-ios-get-started-push.md
+M	articles/mobile-services-javascript-backend-ios-push-notifications-app-users.md
+M	articles/mobile-services-javascript-backend-phonegap-get-started.md
+M	articles/mobile-services-javascript-backend-service-side-authorization.md
+M	articles/mobile-services-javascript-backend-windows-phone-get-started-push.md
+M	articles/mobile-services-javascript-backend-windows-phone-push-notifications-app-users.md
+M	articles/mobile-services-javascript-backend-windows-universal-dotnet-get-started-data.md
+M	articles/mobile-services-javascript-backend-windows-universal-dotnet-get-started-push.md
+M	articles/mobile-services-javascript-backend-windows-universal-dotnet-get-started-users.md
+M	articles/mobile-services-manage-command-line-interface.md
+M	articles/mobile-services-overview.md
+M	articles/mobile-services-schedule-recurring-tasks.md
+M	articles/mobile-services-sql-scale-guidance.md
+M	articles/mobile-services-store-data-table-storage.md
+M	articles/mobile-services-store-scripts-source-control.md
+M	articles/mobile-services-using-soft-delete.md
+M	articles/mobile-services-windows-dotnet-how-to-use-client-library.md
+M	articles/mobile-services-windows-how-to-import-publishsettings.md
+M	articles/mobile-services-windows-phone-call-custom-api.md
+M	articles/mobile-services-windows-phone-get-started-data.md
+M	articles/mobile-services-windows-phone-get-started-offline-data.md
+M	articles/mobile-services-windows-phone-get-started-users.md
+M	articles/mobile-services-windows-phone-get-started.md
+M	articles/mobile-services-windows-phone-handling-conflicts-offline-data.md
+M	articles/mobile-services-windows-phone-push-notifications-app-users.md
+M	articles/mobile-services-windows-phone-single-sign-on.md
+M	articles/mobile-services-windows-phone-upload-data-blob-storage.md
+A	articles/mobile-services-xamarin-android-get-started-offline-data.md
+A	articles/mobile-services-xamarin-ios-get-started-offline-data.md
+M	articles/partner-sencha-mobile-services-get-started.md
+M	articles/partner-xamarin-mobile-services-android-get-started-data.md
+M	articles/partner-xamarin-mobile-services-android-get-started-push.md
+M	articles/partner-xamarin-mobile-services-android-get-started-users.md
+M	articles/partner-xamarin-mobile-services-android-get-started.md
+M	articles/partner-xamarin-mobile-services-how-to-use-client-library.md
+M	articles/partner-xamarin-mobile-services-ios-get-started-data.md
+M	articles/partner-xamarin-mobile-services-ios-get-started-push.md
+M	articles/partner-xamarin-mobile-services-ios-get-started-users.md
+M	articles/partner-xamarin-mobile-services-ios-get-started.md
+M	articles/partner-xamarin-mobile-services-ios-validate-modify-data-server-scripts.md
+M	articles/vs-mobile-services-cordova-getting-started.md
+M	articles/vs-mobile-services-cordova-what-happened.md
+M	articles/vs-mobile-services-dotnet-getting-started.md
+M	articles/vs-mobile-services-dotnet-what-happened.md
+M	articles/vs-mobile-services-javascript-getting-started.md
+M	articles/vs-mobile-services-javascript-what-happened.md
+
+commit b790cf7e1a6887706dae2b22d3953c6c9cfc5143
+Author: kyliel <kyliel@microsoft.com>
+Date:   Thu Jul 23 14:05:28 2015 +0800
+
+    Update virtual-machines-freebsd-create-upload-vhd.md
+
+M	articles/virtual-machines-freebsd-create-upload-vhd.md
+
+commit 190fd31c36c787854d00916b86e292aa2d4b5ca5
+Author: kyliel <kyliel@microsoft.com>
+Date:   Thu Jul 23 14:05:28 2015 +0800
+
+    Update virtual-machines-freebsd-create-upload-vhd.md
+
+M	articles/virtual-machines-freebsd-create-upload-vhd.md
+
+commit b0cb1025dedb1104afb49959682d6e392999c80f
+Author: Sofia Liu <v-sofliu@microsoft.com>
+Date:   Thu Jul 23 09:58:52 2015 +0800
+
+    增加SSL相关图
+    
+    加入SSL连接相对应图片
+
+A	articles/media/mysql-database-ssl-connection/ssl-001.png
+A	articles/media/mysql-database-ssl-connection/ssl-002.png
+A	articles/media/mysql-database-ssl-connection/ssl-003.png
+A	articles/media/mysql-database-ssl-connection/ssl-004.png
+A	articles/media/mysql-database-ssl-connection/ssl-005.png
+A	articles/media/mysql-database-ssl-connection/ssl-006.png
+
+commit 69b24dcd1e79a808e88799b4767ba11596f1f3ac
+Author: Sofia Liu <v-sofliu@microsoft.com>
+Date:   Wed Jul 22 20:13:45 2015 +0800
+
+    新技术文档（SSL、连接池）， FAQ和入门指南更新
+    
+    - 加入两篇新文档： SSL连接，以及连接池访问
+    - FAQ加入三个问题
+    - 入门指南更改之前wording问题
+
+A	articles/mysql-database-connection-pool.md
+M	articles/mysql-database-get-started.md
+A	articles/mysql-database-ssl-connection.md
+M	articles/mysql-database-tech-faq.md
+
+commit 4d32e60942cdd1ed332bbbeb0beeb90058a1c257
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 23 08:30:58 2015 +0800
+
+    更新Landing page
+    
+    更新所有Landing page中有关MSDN的链接状态。
+
+A	articles/backup-azure-backup-create-vault.md
+A	articles/backup-introduction-to-azure-backup.md
+M	articles/virtual-machines-provision-sql-server.md
+M	services/automation.md
+M	services/backup.md
+M	services/cloud-services.md
+M	services/hdinsight.md
+M	services/identity.md
+M	services/media-services.md
+M	services/mobile-services.md
+M	services/networking.md
+M	services/notification-hubs.md
+M	services/scheduler.md
+M	services/service-bus.md
+M	services/site-recovery.md
+M	services/sql-databases.md
+M	services/storage.md
+M	services/traffic-manager.md
+M	services/virtual-machines.md
+M	services/web-sites.md
+
+commit b60f01382d8cbd71810fd11971662842e8beadff
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Tue Jul 21 17:12:59 2015 +0800
+
+    删除错误文件
+
+D	services/services-example.md
+
+commit 89c7f17fb8c4f5599c6309cd5faca79c1cef6440
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 20 22:01:26 2015 +0800
+
+    修复broken link
+    
+    根据7月20日网站扫描工具给出的broken link列表修复。
+
+D	articles/WacnElasticScaleMapcoded.svg
+M	articles/choose-web-site-cloud-service-vm.md
+M	articles/cloud-services-dotnet-get-started.md
+M	articles/cloud-services-dotnet-multi-tier-app-storage-1-overview.md
+M	articles/cloud-services-dotnet-use-performance-counters.md
+M	articles/hdinsight-use-blob-storage.md
+M	articles/hyper-v-recovery-manager-configure-vault.md
+M	articles/media-services-deliver-http-live-streaming-content.md
+M	articles/media-services-manage-origins.md
+M	articles/media-services-protect-asset.md
+M	articles/media-services-set-up-computer.md
+M	articles/mobile-services-how-to-register-google-authentication.md
+M	articles/sql-database-get-started-sql-data-sync.md
+M	articles/storage-create-storage-account.md
+M	articles/storage-dotnet-how-to-use-tables.md
+M	articles/storage-introduction.md
+M	articles/storage-monitor-storage-account.md
+M	articles/storage-php-how-to-use-blobs.md
+M	articles/storage-python-how-to-use-blob-storage.md
+M	articles/storage-windows-attach-disk.md
+M	articles/virtual-machines-connect-cloud-service.md
+M	articles/virtual-machines-create-custom.md
+M	articles/virtual-machines-create-upload-vhd-windows-server.md
+M	articles/virtual-machines-deploy-sharepoint-2010.md
+M	articles/virtual-machines-java-run-compute-intensive-task.md
+M	articles/virtual-machines-linux-create-upload-vhd.md
+M	articles/virtual-machines-linux-how-to-attach-disk.md
+M	articles/virtual-machines-load-balance.md
+M	articles/web-sites-digital-marketing-application-solution-overview.md
+M	articles/web-sites-java-add-app.md
+M	articles/web-sites-java-get-started.md
+M	articles/web-sites-monitor.md
+M	articles/web-sites-scale.md
+M	articles/websites-dotnet-webjobs-sdk-get-started.md
+M	develop/php.md
+M	documentation.md
+M	includes/howto-connect-vm-cloud-service.md
+M	includes/manage-vm-availability.md
+
+commit 9e513906ce9d88d409beb9f394c9554e2e51d273
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 23 08:30:58 2015 +0800
+
+    更新Landing page
+    
+    更新所有Landing page中有关MSDN的链接状态。
+
+A	articles/backup-azure-backup-create-vault.md
+A	articles/backup-introduction-to-azure-backup.md
+M	articles/virtual-machines-provision-sql-server.md
+M	services/automation.md
+M	services/backup.md
+M	services/cloud-services.md
+M	services/hdinsight.md
+M	services/identity.md
+M	services/media-services.md
+M	services/mobile-services.md
+M	services/networking.md
+M	services/notification-hubs.md
+M	services/scheduler.md
+M	services/service-bus.md
+M	services/site-recovery.md
+M	services/sql-databases.md
+M	services/storage.md
+M	services/traffic-manager.md
+M	services/virtual-machines.md
+M	services/web-sites.md
+
+commit 6407e692d999a5b7cc64278a3f0be3a9b8471c0b
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Tue Jul 21 17:12:59 2015 +0800
+
+    删除错误文件
+
+D	services/services-example.md
+
+commit e6ef8504d67724ca521a7baf605695311aba2cbf
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Tue Jul 21 17:11:23 2015 +0800
+
+    添加app-gateway landing page
+
+A	services/application-gateway.md
+
+commit 71f6fe07faf6f21c5481dd182ec815b54033e96e
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Tue Jul 21 11:11:29 2015 +0800
+
+    清除biztalk文件
+
+D	articles/biztalk-backup-restore.md
+D	articles/biztalk-dashboard-monitor-scale-tabs.md
+D	articles/biztalk-editions-feature-chart.md
+D	articles/biztalk-issuer-name-issuer-key.md
+D	articles/biztalk-provision-services.md
+D	articles/biztalk-service-state-chart.md
+D	articles/biztalk-throttling-thresholds.md
+D	articles/biztalk-troubleshoot-using-ops-logs.md
+
+commit fea21d09d49e61112c0b0c0637093546354085ef
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Mon Jul 20 22:01:26 2015 +0800
+
+    修复broken link
+    
+    根据7月20日网站扫描工具给出的broken link列表修复。
+
+D	articles/WacnElasticScaleMapcoded.svg
+M	articles/choose-web-site-cloud-service-vm.md
+M	articles/cloud-services-dotnet-get-started.md
+M	articles/cloud-services-dotnet-multi-tier-app-storage-1-overview.md
+M	articles/cloud-services-dotnet-use-performance-counters.md
+M	articles/hdinsight-use-blob-storage.md
+M	articles/hyper-v-recovery-manager-configure-vault.md
+M	articles/media-services-deliver-http-live-streaming-content.md
+M	articles/media-services-manage-origins.md
+M	articles/media-services-protect-asset.md
+M	articles/media-services-set-up-computer.md
+M	articles/mobile-services-how-to-register-google-authentication.md
+M	articles/sql-database-get-started-sql-data-sync.md
+M	articles/storage-create-storage-account.md
+M	articles/storage-dotnet-how-to-use-tables.md
+M	articles/storage-introduction.md
+M	articles/storage-monitor-storage-account.md
+M	articles/storage-php-how-to-use-blobs.md
+M	articles/storage-python-how-to-use-blob-storage.md
+M	articles/storage-windows-attach-disk.md
+M	articles/virtual-machines-connect-cloud-service.md
+M	articles/virtual-machines-create-custom.md
+M	articles/virtual-machines-create-upload-vhd-windows-server.md
+M	articles/virtual-machines-deploy-sharepoint-2010.md
+M	articles/virtual-machines-java-run-compute-intensive-task.md
+M	articles/virtual-machines-linux-create-upload-vhd.md
+M	articles/virtual-machines-linux-how-to-attach-disk.md
+M	articles/virtual-machines-load-balance.md
+M	articles/web-sites-digital-marketing-application-solution-overview.md
+M	articles/web-sites-java-add-app.md
+M	articles/web-sites-java-get-started.md
+M	articles/web-sites-monitor.md
+M	articles/web-sites-scale.md
+M	articles/websites-dotnet-webjobs-sdk-get-started.md
+M	develop/php.md
+M	documentation.md
+M	includes/howto-connect-vm-cloud-service.md
+M	includes/manage-vm-availability.md
+
+commit 39af048b20d7840d41f8ce10ef1fc920fd46b3ed
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 19 18:28:50 2015 +0800
+
+    由于定价页不存在，因此删除定价页链接文字。
+
+M	articles/application-gateway-introduction.md
+
+commit 2bfaf597d37f38d86cf8f865e194b6569c3f8976
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 19 18:20:40 2015 +0800
+
+    修复文件名引用大小写问题
+
+M	articles/application-gateway-create-gateway.md
+
+commit 5ca7b0dac226c521004d5d09f4e1bcbc4627b9e2
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 19 18:09:17 2015 +0800
+
+    2015.7 Technical Content Refresh - App-Gateway files check in.
+
+A	articles/application-gateway-create-gateway.md
+A	articles/application-gateway-introduction.md
+A	articles/application-gateway-ssl.md
+A	articles/media/application-gateway-introduction/appgateway1.png
+A	articles/media/virtual-machines-linux-create-upload-vhd-centos/installiso.png
+A	articles/media/virtual-machines-linux-create-upload-vhd-centos/settings.png
+A	articles/virtual-machines-linux-create-upload-vhd-centos.md
+
+commit 04f058cb0fbd182d96f93cccae3759c3e3a5950d
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Fri Jul 17 13:23:04 2015 +0800
+
+    修复路径错误
+    
+    上线之时并没有发现这个错误，原因未知。
+
+M	services/sql-databases.md
+
+commit ae9857567fa4985c5af6e1e2ce56e9a0e4546ebc
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 12 23:06:54 2015 +0800
+
+    2015.6 Technical Content Refresh - Updated Mobile-services files part III check in.
+
+M	articles/mobile-services-dotnet-backend-windows-phone-call-custom-api.md
+M	articles/mobile-services-dotnet-backend-windows-phone-get-started-data.md
+M	articles/mobile-services-dotnet-backend-windows-phone-get-started-push.md
+M	articles/mobile-services-dotnet-backend-windows-phone-get-started-users.md
+A	articles/mobile-services-dotnet-backend-windows-phone-push-notifications-app-users.md
+M	articles/mobile-services-dotnet-backend-windows-phone-upload-data-blob-storage.md
+A	articles/mobile-services-dotnet-backend-windows-universal-dotnet-get-started-data.md
+M	articles/mobile-services-dotnet-backend-windows-universal-dotnet-get-started-push.md
+M	articles/mobile-services-dotnet-backend-windows-universal-dotnet-get-started-users.md
+M	articles/mobile-services-dotnet-backend-xamarin-android-get-started-push.md
+M	articles/mobile-services-dotnet-backend-xamarin-android-get-started-users.md
+M	articles/mobile-services-dotnet-backend-xamarin-android-get-started.md
+M	articles/mobile-services-dotnet-backend-xamarin-ios-adal-sso-authentication.md
+M	articles/mobile-services-dotnet-backend-xamarin-ios-get-started-push.md
+M	articles/mobile-services-dotnet-backend-xamarin-ios-get-started-users.md
+M	articles/mobile-services-dotnet-backend-xamarin-ios-get-started.md
+M	articles/mobile-services-how-to-create-new-service.md
+M	articles/mobile-services-how-to-register-active-directory-authentication.md
+M	articles/mobile-services-how-to-register-microsoft-authentication.md
+A	includes/mobile-services-dotnet-backend-android-push-update-service.md
+A	includes/mobile-services-xamarin-android-push-add-to-app.md
+A	includes/mobile-services-xamarin-android-push-configure-project.md
+
+commit 74829de6600ef888c1ddcd3252fd689e1ccbc688
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 12 16:12:53 2015 +0800
+
+    尝试修复文档页面问题
+    
+    includes文档引用在网站页面中显示不正常。
+
+M	articles/media-services-protecting-content-overview.md
+
+commit 18a4ac706c03baea59927324fee31f9845c2d05e
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 12 13:36:11 2015 +0800
+
+    删除多重选择标签
+
+M	articles/mobile-services-dotnet-backend-android-get-started-push.md
+M	articles/mobile-services-dotnet-backend-ios-get-started-push.md
+
+commit db762b093c8f10052cce81ff4feb3ccf9416f69e
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 12 11:41:28 2015 +0800
+
+    修复代码错误
+    
+    修复代码错误造成的页面转换错误。
+
+M	includes/media-services-selector-asset-delivery-policy.md
+M	includes/media-services-selector-content-key-auth-policy.md
+M	includes/media-services-selector-create-contentkey.md
+M	includes/media-services-selector-publish.md
+
+commit d40919e97b3bd7bb001cf9613379155344e36a71
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 12 10:40:34 2015 +0800
+
+    修复includes文件bug
+
+M	includes/media-services-selector-asset-delivery-policy.md
+M	includes/media-services-selector-content-key-auth-policy.md
+M	includes/media-services-selector-create-contentkey.md
+M	includes/media-services-selector-publish.md
+
+commit f6d18050ec5cb3a49ae16ad67f4441912dfaad67
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 12 10:25:21 2015 +0800
+
+    修复bug - includes引用错误
+    
+    根据Tony 7月12日2：00邮件修复includes引用错误
+
+M	articles/media-services-protecting-content-overview.md
+M	articles/mobile-services-dotnet-backend-android-get-started-EC.md
+M	articles/mobile-services-dotnet-backend-android-get-started-data-EC.md
+M	articles/mobile-services-dotnet-backend-android-get-started-push-EC.md
+M	articles/mobile-services-dotnet-backend-ios-get-started-push.md
+A	includes/mobile-services-android-push-notifications-test.md
+
+commit 7b01efbdd70bccb94482d4a57676f8285126cdd7
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sat Jul 11 23:06:32 2015 +0800
+
+    2015.6 Technical Content Refresh - Updated Mobile-services files part II check in.
+
+A	articles/media/mobile-services-dotnet-backend-get-started-custom-authentication/mobile-services-dotnet-backend-custom-auth-access-endpoint.png
+A	articles/media/mobile-services-dotnet-backend-get-started-custom-authentication/mobile-services-dotnet-backend-custom-auth-access-success.png
+M	articles/media/mobile-services-dotnet-backend-get-started-custom-authentication/mobile-services-dotnet-backend-custom-auth-login-result.png
+M	articles/mobile-services-dotnet-backend-android-call-custom-api.md
+M	articles/mobile-services-dotnet-backend-android-get-started-EC.md
+M	articles/mobile-services-dotnet-backend-android-get-started-data-EC.md
+M	articles/mobile-services-dotnet-backend-android-get-started-data.md
+M	articles/mobile-services-dotnet-backend-android-get-started-push-EC.md
+M	articles/mobile-services-dotnet-backend-android-get-started-push.md
+A	articles/mobile-services-dotnet-backend-android-get-started-users.md
+M	articles/mobile-services-dotnet-backend-android-get-started.md
+A	articles/mobile-services-dotnet-backend-android-push-notifications-app-users.md
+A	articles/mobile-services-dotnet-backend-calling-sharepoint-on-behalf-of-user.md
+A	articles/mobile-services-dotnet-backend-get-started-custom-authentication.md
+M	articles/mobile-services-dotnet-backend-how-to-configure-iis-express.md
+A	articles/mobile-services-dotnet-backend-how-to-troubleshoot.md
+M	articles/mobile-services-dotnet-backend-how-to-use-code-first-migrations.md
+M	articles/mobile-services-dotnet-backend-hybrid-connections-get-started.md
+A	articles/mobile-services-dotnet-backend-ios-adal-sso-authentication.md
+M	articles/mobile-services-dotnet-backend-ios-call-custom-api.md
+A	articles/mobile-services-dotnet-backend-ios-get-started-data.md
+A	articles/mobile-services-dotnet-backend-ios-get-started-push.md
+M	articles/mobile-services-dotnet-backend-ios-get-started-users.md
+M	articles/mobile-services-dotnet-backend-ios-get-started.md
+A	articles/mobile-services-dotnet-backend-ios-push-notifications-app-users.md
+M	articles/mobile-services-dotnet-backend-schedule-recurring-tasks.md
+M	articles/mobile-services-dotnet-backend-service-side-authorization.md
+A	articles/mobile-services-dotnet-backend-use-existing-sql-database.md
+
+commit 81ade60c21992824033f231a00d2d5c2125bab12
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sat Jul 11 20:30:33 2015 +0800
+
+    修复bug
+    
+    7月11日2：50，Tony邮件提到的2处includes引用bug。
+
+M	articles/media-services-protecting-content-overview.md
+M	articles/virtual-machines-windows-tutorial-classic-portal.md
+
+commit 386a872255f07ff8febce6c0b1524cdc757853d4
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Fri Jul 10 09:04:32 2015 +0800
+
+    修复bug
+    
+    对7月10日0：51分来自Tony的邮件中提及的DPS系统测试中报出的错误进行了修复。
+
+M	articles/active-directory-devquickstarts-webapp-dotnet.md
+M	articles/media-services-protecting-content-overview.md
+M	articles/mobile-services-dotnet-backend-android-get-started-push-EC.md
+M	articles/mobile-services-javascript-backend-android-get-started-push-EC.md
+M	articles/virtual-machines-windows-tutorial-classic-portal.md
+M	articles/websites-dotnet-webjobs-sdk-get-started.md
+A	includes/download-android-sample-code-EC.md
+A	includes/media-services-selector-encode.md
+
+commit d371c66035cc77086c8af812e03df8a919ffb8e5
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 9 22:48:16 2015 +0800
+
+    2015.6 Technical Content Refresh - Updated Mobile-services files part I check in.
+
+M	articles/mobile-services-android-authorize-users-in-scripts.md
+M	articles/mobile-services-android-call-custom-api.md
+M	articles/mobile-services-android-get-started-EC.md
+M	articles/mobile-services-android-get-started-data-EC.md
+M	articles/mobile-services-android-get-started-data.md
+M	articles/mobile-services-android-get-started-users.md
+M	articles/mobile-services-android-get-started.md
+M	articles/mobile-services-android-how-to-use-client-library.md
+M	articles/mobile-services-android-push-notifications-app-users.md
+M	articles/mobile-services-disaster-recovery.md
+
+commit 8863caa0cec2e9c1f5a3de74b83428eb3d6d2f83
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 9 16:32:17 2015 +0800
+
+    修复bugs
+    
+    根据Tony的请求，将articles中引用的还没有准备好的includes文档链接暂时删除，以便他测试DPS系统。
+
+M	articles/mobile-services-how-to-enable-apple-push-notifications.md
+M	articles/mobile-services-ios-get-started-push.md
+M	articles/mobile-services-javascript-backend-ios-get-started-push.md
+M	articles/storage-account-concepts.md
+M	articles/storage-create-storage-account.md
+M	articles/storage-dotnet-how-to-use-blobs.md
+M	articles/storage-dotnet-how-to-use-queues.md
+M	articles/storage-dotnet-how-to-use-tables.md
+M	articles/storage-introduction.md
+M	articles/storage-manage-storage-account.md
+M	articles/storage-whatis-account.md
+M	articles/virtual-machines-create-windows-powershell-service-manager.md
+A	articles/websites-dotnet-webjobs-sdk-get-started.md
+
+commit ad2218bf25efd0a0ab8dd920cb4f46caa34f794b
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 9 09:31:19 2015 +0800
+
+    修复bugs - includes文件引用问题
+    
+    根据Tony7月9日6：46邮件列出的问题，修复includes引用问题。
+
+M	articles/cloud-services-configure-ssl-certificate.md
+M	articles/cloud-services-php-how-to-use-service-management.md
+M	articles/media-services-portal-get-started.md
+M	articles/media-services-protecting-content-overview.md
+M	articles/mobile-services-android-get-started-EC.md
+M	articles/mobile-services-android-get-started-data-EC.md
+M	articles/mobile-services-dotnet-backend-android-get-started-EC.md
+M	articles/mobile-services-dotnet-backend-android-get-started-data-EC.md
+M	articles/mobile-services-dotnet-backend-android-get-started-push-EC.md
+M	articles/mobile-services-javascript-backend-android-get-started-push-EC.md
+M	articles/sql-database-elastic-scale-upgrade-client-library.md
+M	articles/storage-c-plus-plus-how-to-use-blobs.md
+M	articles/storage-nodejs-use-table-storage-web-site.md
+M	articles/virtual-machines-datastax-enterprise-template.md
+M	articles/virtual-machines-datastax-template.md
+M	articles/virtual-machines-linux-create-custom.md
+M	articles/virtual-machines-windows-create-custom.md
+A	includes/hdinsight-selector-use-hive.md
+A	includes/hdinsight-selector-use-mapreduce.md
+A	includes/hdinsight-selector-use-pig.md
+A	includes/media-services-selector-get-started.md
+A	includes/media-services-selector-manage-channels.md
+A	includes/media-services-selector-upload-files.md
+A	includes/storage-selector-blob-include.md
+A	includes/storage-selector-queue-include.md
+A	includes/storage-selector-table-include.md
+
+commit 8aa517668cc112bfd03d66b55702c70ea775e6d9
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Wed Jul 8 20:51:25 2015 +0800
+
+    为SQL文件添加新门户说明
+    
+    1.添加Azure.Note：由世纪互联运营的Windows Azure目前暂不支持新门户，此文仅供参考。
+    2. 排查并替换SQL Database为SQL 数据库。
+    3. 排查并替换Microsoft Azure为Windows Azure。
+
+M	articles/WacnElasticScaleMapcoded.svg
+M	articles/active-directory-add-company-branding.md
+M	articles/active-directory-administer.md
+M	articles/active-directory-application-proxy-configure.md
+M	articles/active-directory-devquickstarts-android.md
+M	articles/active-directory-devquickstarts-angular.md
+M	articles/active-directory-devquickstarts-cordova.md
+M	articles/active-directory-devquickstarts-dotnet.md
+M	articles/active-directory-devquickstarts-ios.md
+M	articles/active-directory-devquickstarts-webapi-dotnet.md
+M	articles/active-directory-devquickstarts-webapi-nodejs.md
+M	articles/active-directory-devquickstarts-webapp-dotnet.md
+M	articles/active-directory-devquickstarts-windowsphone.md
+M	articles/active-directory-devquickstarts-xamarin.md
+M	articles/active-directory-editions.md
+M	articles/active-directory-how-subscriptions-associated-directory.md
+M	articles/active-directory-how-to-integrate.md
+M	articles/active-directory-howto-tenant.md
+M	articles/active-directory-privileged-identity-management-configure.md
+M	articles/active-directory-reporting-api-getting-started.md
+M	articles/active-directory-self-service-signup.md
+M	articles/active-directory-service-limits-restrictions.md
+M	articles/active-directory-terminology.md
+M	articles/active-directory-view-access-usage-reports.md
+M	articles/automation-hybrid-runbook-worker.md
+M	articles/automation-manage-sql-database.md
+M	articles/azure-sdk-dotnet-release-notes-2_6.md
+M	articles/backup-azure-vms-introduction.md
+M	articles/cloud-services-dotnet-autoscaling-application-block.md
+M	articles/cloud-services-dotnet-diagnostics.md
+M	articles/cloud-services-dotnet-get-started.md
+M	articles/cloud-services-dotnet-hybrid-app-using-service-bus-relay.md
+M	articles/cloud-services-dotnet-multi-tier-app-using-service-bus-queues.md
+M	articles/cloud-services-how-to-manage.md
+M	articles/cloud-services-how-to-scale.md
+M	articles/cloud-services-nodejs-develop-deploy-cloud9.md
+M	articles/cloud-services-python-ptvs.md
+M	articles/cloud-services-what-is.md
+M	articles/developerdifferences.md
+M	articles/dotnet-develop-multitenant-applications.md
+M	articles/dotnet-sdk.md
+M	articles/fundamentals-application-models.md
+M	articles/hdinsight-hadoop-emulator-get-started.md
+M	articles/hdinsight-hadoop-linux-tutorial-get-started.md
+M	articles/hdinsight-hadoop-linux-use-ssh-unix.md
+M	articles/hdinsight-hadoop-linux-use-ssh-windows.md
+M	articles/hdinsight-hadoop-optimize-hive-query.md
+M	articles/hdinsight-hadoop-provision-linux-clusters.md
+M	articles/hdinsight-hadoop-tutorial-get-started-windows.md
+M	articles/hdinsight-hadoop-use-blob-storage.md
+M	articles/hdinsight-hadoop-use-hive-powershell.md
+M	articles/hdinsight-hadoop-use-mapreduce-powershell.md
+M	articles/hdinsight-hadoop-use-pig-powershell.md
+M	articles/hdinsight-hbase-tutorial-get-started.md
+M	articles/hdinsight-learn-hadoop-use-sample-gallery.md
+M	articles/hdinsight-storm-develop-csharp-event-hub-topology.md
+M	articles/hdinsight-storm-example-topology.md
+M	articles/hdinsight-storm-power-bi-topology.md
+M	articles/hyper-v-recovery-manager-privacy.md
+M	articles/java-create-azure-website-using-java-sdk.md
+M	articles/media-services-content-protection-overview.md
+M	articles/media-services-dotnet-long-operations.md
+M	articles/media-services-dynamic-packaging-overview.md
+M	articles/media-services-manage-with-powershell.md
+M	articles/media-services-protecting-content-overview.md
+M	articles/media/hdinsight-learn-map/Wacn.HDI.Content.Flow.svg
+M	articles/media/test-new-anchor/WacnElasticScaleMapcoded.svg
+M	articles/mobile-services-disaster-recovery.md
+M	articles/mobile-services-dotnet-backend-windows-universal-javascript-get-started-data.md
+M	articles/mobile-services-dotnet-backend-xamarin-ios-adal-sso-authentication.md
+M	articles/mobile-services-html-call-custom-api.md
+M	articles/mobile-services-html-get-started-data.md
+M	articles/mobile-services-html-how-to-use-client-library.md
+M	articles/mobile-services-ios-get-started-data.md
+M	articles/mobile-services-ios-validate-modify-data-server-scripts.md
+M	articles/mobile-services-manage-command-line-interface.md
+M	articles/mobile-services-sql-scale-guidance.md
+M	articles/mobile-services-using-soft-delete.md
+M	articles/mobile-services-windows-phone-get-started-data.md
+M	articles/mobile-services-windows-phone-get-started-offline-data.md
+M	articles/mobile-services-windows-phone-upload-data-blob-storage.md
+M	articles/mobile-services-windows-phone-validate-modify-data-server-scripts.md
+M	articles/mobile-services-windows-store-dotnet-get-started-offline-data.md
+M	articles/mobile-services-windows-store-dotnet-upload-data-blob-storage.md
+M	articles/mobile-services-windows-store-dotnet-validate-modify-data-server-scripts.md
+M	articles/mysql-database-advanced-settings.md
+M	articles/mysql-database-get-started.md
+M	articles/mysql-database-operation-limitation.md
+M	articles/mysql-database-operation-monitoring-metrics.md
+M	articles/mysql-database-performance-guidance-asdb-test-result.md
+M	articles/mysql-database-tech-faq.md
+M	articles/mysql-database-wordpress-setup.md
+M	articles/powershell-install-configure.md
+M	articles/service-bus-build-reliable-and-elastic-cloud-apps.md
+M	articles/service-bus-connect-millions-of-things.md
+M	articles/service-bus-event-hubs-manage-with-ps.md
+M	articles/service-bus-hybrid-applications-spanning-cloud-and-premises.md
+M	articles/site-recovery-best-practices.md
+M	articles/site-recovery-faq.md
+M	articles/site-recovery-hyper-v-site-to-azure.md
+M	articles/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises.md
+M	articles/site-recovery-vmm-san.md
+M	articles/site-recovery-vmm-to-azure.md
+M	articles/site-recovery-vmm-to-vmm.md
+M	articles/site-recovery-vmware-to-azure.md
+M	articles/sql-data-java-how-to-use-sql-database.md
+M	articles/sql-database-bcdr-faq.md
+M	articles/sql-database-business-continuity-application-upgrade.md
+M	articles/sql-database-business-continuity-design.md
+M	articles/sql-database-business-continuity.md
+M	articles/sql-database-cloud-migrate.md
+M	articles/sql-database-command-line-tools.md
+M	articles/sql-database-connect-central-recommendations.md
+M	articles/sql-database-connect-query.md
+M	articles/sql-database-connect-to-database.md
+M	articles/sql-database-connectivity-issues.md
+M	articles/sql-database-create-assembly-on-azure-with-csharp.md
+M	articles/sql-database-create-configure.md
+M	articles/sql-database-create.md
+M	articles/sql-database-develop-dotnet-simple.md
+M	articles/sql-database-develop-nodejs-simple-linux.md
+M	articles/sql-database-develop-nodejs-simple-windows.md
+M	articles/sql-database-develop-php-simple-windows.md
+M	articles/sql-database-develop-python-simple-unbutu-linux.md
+M	articles/sql-database-develop-python-simple-windows.md
+M	articles/sql-database-develop-quick-start-client-code-samples.md
+M	articles/sql-database-disaster-recovery-drills.md
+M	articles/sql-database-disaster-recovery.md
+M	articles/sql-database-dotnet-how-to-use.md
+M	articles/sql-database-dynamic-data-masking-get-started-portal.md
+M	articles/sql-database-dynamic-data-masking-get-started.md
+M	articles/sql-database-elastic-jobs-add-logins-to-dbs.md
+M	articles/sql-database-elastic-jobs-overview.md
+M	articles/sql-database-elastic-jobs-service-installation.md
+M	articles/sql-database-elastic-jobs-uninstall.md
+M	articles/sql-database-elastic-pool-portal.md
+M	articles/sql-database-elastic-pool-powershell.md
+M	articles/sql-database-elastic-pool-reference.md
+M	articles/sql-database-elastic-pool.md
+M	articles/sql-database-elastic-scale-add-a-shard.md
+M	articles/sql-database-elastic-scale-add-references-visual-studio.md
+M	articles/sql-database-elastic-scale-configure-deploy-split-and-merge.md
+M	articles/sql-database-elastic-scale-configure-security.md
+M	articles/sql-database-elastic-scale-documentation-map.md
+M	articles/sql-database-elastic-scale-elasticity.md
+M	articles/sql-database-elastic-scale-faq.md
+M	articles/sql-database-elastic-scale-federation-migration.md
+M	articles/sql-database-elastic-scale-get-started.md
+M	articles/sql-database-elastic-scale-glossary.md
+M	articles/sql-database-elastic-scale-introduction.md
+M	articles/sql-database-elastic-scale-manage-credentials.md
+M	articles/sql-database-elastic-scale-manage-scripting.md
+M	articles/sql-database-elastic-scale-overview-split-and-merge.md
+M	articles/sql-database-elastic-scale-shard-map-management.md
+M	articles/sql-database-elastic-scale-sharding-overview.md
+M	articles/sql-database-elastic-scale-split-merge-security-configuration.md
+M	articles/sql-database-elastic-scale-upgrade-client-library.md
+M	articles/sql-database-elastic-scale-use-entity-framework-applications-visual-studio.md
+M	articles/sql-database-elastic-scale-working-with-dapper.md
+M	articles/sql-database-geo-restore-tutorial-management-portal.md
+M	articles/sql-database-geo-restore-tutorial-powershell.md
+M	articles/sql-database-geo-restore-tutorial-rest.md
+M	articles/sql-database-get-started-sql-data-sync.md
+M	articles/sql-database-get-started.md
+M	articles/sql-database-manage-azure-ssms.md
+M	articles/sql-database-manage-overview.md
+M	articles/sql-database-management-tasks.md
+M	articles/sql-database-migrate-ssms.md
+M	articles/sql-database-migration-wizard.md
+M	articles/sql-database-monitor.md
+M	articles/sql-database-php-how-to-use.md
+M	articles/sql-database-point-in-time-restore-tutorial-management-portal.md
+M	articles/sql-database-point-in-time-restore-tutorial-powershell.md
+M	articles/sql-database-point-in-time-restore-tutorial-rest.md
+M	articles/sql-database-recovered-finalize.md
+M	articles/sql-database-restore-deleted-database-tutorial-management-portal.md
+M	articles/sql-database-restore-deleted-database-tutorial-powershell.md
+M	articles/sql-database-restore-deleted-database-tutorial-rest.md
+M	articles/sql-database-scale-up.md
+M	articles/sql-database-security.md
+M	articles/sql-database-service-tiers.md
+M	articles/sql-database-technical-overview.md
+M	articles/sql-database-upgrade-new-service-tiers.md
+M	articles/sql-database-user-error-recovery.md
+M	articles/sql-database-v12-plan-prepare-upgrade.md
+M	articles/sql-database-v12-sign-up.md
+M	articles/sql-database-v12-whats-new.md
+M	articles/storage-analytics.md
+M	articles/storage-authenticate-account-access.md
+M	articles/storage-c-plus-plus-how-to-use-blobs.md
+M	articles/storage-c-plus-plus-how-to-use-queues.md
+M	articles/storage-c-plus-plus-how-to-use-tables.md
+M	articles/storage-concurrency.md
+M	articles/storage-cors-support.md
+M	articles/storage-custom-domain-name.md
+M	articles/storage-dotnet-how-to-use-blobs.md
+M	articles/storage-dotnet-how-to-use-files.md
+M	articles/storage-dotnet-how-to-use-queues.md
+M	articles/storage-dotnet-how-to-use-tables.md
+M	articles/storage-dotnet-shared-access-signature-part-1.md
+M	articles/storage-dotnet-shared-access-signature-part-2.md
+M	articles/storage-e2e-troubleshooting.md
+M	articles/storage-enable-and-view-metrics.md
+M	articles/storage-getting-started-guide.md
+M	articles/storage-introduction.md
+M	articles/storage-java-how-to-use-blob-storage.md
+M	articles/storage-java-how-to-use-queue-storage.md
+M	articles/storage-java-how-to-use-table-storage.md
+M	articles/storage-java-hudson-continuous-integration-solution.md
+M	articles/storage-java-jenkins-continuous-integration-solution.md
+M	articles/storage-java-use-blob-storage-on-premises-app.md
+M	articles/storage-manage-access-to-azure-storage-resources.md
+M	articles/storage-manage-access-to-resources.md
+M	articles/storage-manage-storage-account.md
+M	articles/storage-migration-to-premium-storage.md
+M	articles/storage-monitor-storage-account.md
+M	articles/storage-monitoring-diagnosing-troubleshooting.md
+M	articles/storage-nodejs-how-to-use-blob-storage.md
+M	articles/storage-nodejs-how-to-use-queues.md
+M	articles/storage-nodejs-how-to-use-table-storage.md
+M	articles/storage-nodejs-use-table-storage-cloud-service-app.md
+M	articles/storage-nodejs-use-table-storage-web-site.md
+M	articles/storage-performance-checklist.md
+M	articles/storage-php-how-to-use-blobs.md
+M	articles/storage-php-how-to-use-queues.md
+M	articles/storage-php-how-to-use-table-storage.md
+M	articles/storage-powershell-guide-full.md
+M	articles/storage-properties-metadata.md
+M	articles/storage-python-how-to-use-blob-storage.md
+M	articles/storage-python-how-to-use-queue-storage.md
+M	articles/storage-python-how-to-use-table-storage.md
+M	articles/storage-redundancy.md
+M	articles/storage-ruby-how-to-use-blob-storage.md
+M	articles/storage-ruby-how-to-use-queue-storage.md
+M	articles/storage-ruby-how-to-use-table-storage.md
+M	articles/storage-samples.md
+M	articles/storage-scalability-targets.md
+M	articles/storage-table-design-guide.md
+M	articles/storage-use-azcopy.md
+M	articles/storage-use-emulator.md
+M	articles/storage-use-store-apps.md
+M	articles/traffic-manager-overview.md
+M	articles/traffic-manager.md
+M	articles/virtual-machines-base-configuration-test-environment.md
+M	articles/virtual-machines-command-line-tools.md
+M	articles/virtual-machines-how-to-inject-custom-data.md
+M	articles/virtual-machines-hybrid-cloud-test-environments.md
+M	articles/virtual-machines-java-run-tomcat-application-server.md
+M	articles/virtual-machines-linux-create-upload-vhd-generic.md
+M	articles/virtual-machines-linux-install-mysql.md
+M	articles/virtual-machines-linux-mysql-cluster.md
+M	articles/virtual-machines-linux-setup-tomcat7-linux.md
+M	articles/virtual-machines-linux-use-ssh-key.md
+M	articles/virtual-machines-provision-sql-server.md
+M	articles/virtual-machines-sql-server-infrastructure-services.md
+M	articles/virtual-machines-windows-reset-password.md
+M	articles/virtual-networks-configure-vnet-to-vnet-connection.md
+M	articles/virtual-networks-setup-dirsync-hybrid-cloud-testing.md
+M	articles/virtual-networks-setup-lobapp-hybrid-cloud-testing.md
+M	articles/virtual-networks-setup-sharepoint-hybrid-cloud-testing.md
+M	articles/virtual-networks-setup-simulated-hybrid-cloud-environment-testing.md
+M	articles/vpn-gateway-site-to-site-create.md
+M	articles/websites-dotnet-deploy-webjobs.md
+M	articles/websites-webjobs-resources.md
+M	develop/java/compute.md
+M	develop/net.md
+M	develop/other/open-source-software.md
+M	documentation.md
+M	includes/SecurityRX.md
+M	includes/application-model.md
+M	includes/arm-getting-setup-powershell.md
+M	includes/cloud-storage.md
+M	includes/elastic-scale-include.md
+M	includes/intro-to-azure.md
+M	includes/mobile-services-concepts.md
+M	includes/mobile-services-create-new-service-data-2.md
+M	includes/mobile-services-create-new-service-data.md
+M	includes/mobile-services-create-new-service-vs2013.md
+M	includes/mobile-services-create-new-service.md
+M	includes/mobile-services-dotnet-backend-configure-blob-storage.md
+M	includes/mobile-services-dotnet-backend-create-new-service-vs2013.md
+M	includes/mobile-services-dotnet-backend-create-new-service.md
+M	includes/mobile-services-dotnet-backend-view-sql-data.md
+M	includes/mobile-services-filter-user-results-dotnet-backend.md
+M	includes/sql-azure-management.md
+M	includes/vs-connect-ws-publish.md
+M	includes/vs-connect.md
+M	services/cdn.md
+M	services/mobile-services.md
+M	services/mysql.md
+M	services/sql-databases.md
+
+commit d54dea237cb1f8e1b293ba107de6d6b0bf7fad9f
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Wed Jul 8 16:36:27 2015 +0800
+
+    添加includes文件，修改articles文件bug。
+
+M	articles/virtual-machines-datastax-enterprise-template.md
+M	articles/virtual-machines-datastax-template.md
+A	includes/arm-getting-setup-powershell.md
+A	includes/xplat-getting-set-up-arm.md
+
+commit eed9ae212f65b4483d8e36595bef73eedfee5fac
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Wed Jul 8 14:12:30 2015 +0800
+
+    修复bug - 去掉命令参数中的“-Environment AzureChinaCloud”
+    
+    7月7日邮件提出。
+
+M	articles/storage-premium-storage-preview-portal.md
+
+commit cf8e5cabc722531e8d61d464558d564c143edd01
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Sun Jul 5 01:08:47 2015 +0800
+
+    2015.6 Technical Content Refresh - VM files check in.
+
+A	articles/media/virtual-machines-datastax-enterprise-template/cluster-architecture.png
+A	articles/media/virtual-machines-datastax-enterprise-template/datastax-enterprise-files.png
+A	articles/media/virtual-machines-datastax-enterprise-template/datastax-enterprise-template-structure.png
+A	articles/media/virtual-machines-datastax-template/cluster-architecture.png
+A	articles/media/virtual-machines-datastax-template/datastax-files.png
+A	articles/media/virtual-machines-datastax-template/datastax-template-structure.png
+A	articles/media/virtual-machines-infrastructure-services-implementation-guidelines/example-config.png
+A	articles/media/virtual-machines-infrastructure-services-implementation-guidelines/example-tiers.png
+A	articles/media/virtual-machines-infrastructure-services-implementation-guidelines/sub01.png
+A	articles/media/virtual-machines-infrastructure-services-implementation-guidelines/sub02.png
+A	articles/media/virtual-machines-infrastructure-services-implementation-guidelines/sub03.png
+A	articles/media/virtual-machines-infrastructure-services-implementation-guidelines/sub04.png
+A	articles/media/virtual-machines-infrastructure-services-implementation-guidelines/vnet01.png
+A	articles/media/virtual-machines-infrastructure-services-implementation-guidelines/vnet02.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_01.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_02.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_03.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_04.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_05.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_06.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_07.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_08.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_09.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_10.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_11.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_12.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_13.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_14.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/10_Appendix_15.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/1_VNET_Portal.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/2_Diskname_Lun.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/3_Virtual_Disk_Properties.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/4_Virtual_Disk_Properties_Details.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/5_Get_Storage_Pool.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/6_Deployments_Always_On.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/7_Add_More_Secondaries.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/8_Use_Existing_Secondary_Single_Site.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/9_Use_Existing_Secondary_Multi_Site.png
+A	articles/media/virtual-machines-sql-server-use-premium-storage/9_Use_Existing_Secondary_Multi_Site_b.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/commandbarattach.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/dashboard.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/disklistwithdatadisk.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/emptydisksize.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/fileandstorageservices.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/initializedisk.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/initializediskvolume.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/newvolumecreated.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/selectdisks.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/selectvm.png
+A	articles/media/virtual-machines-windows-tutorial-classic-portal/yesinitialize.png
+A	articles/media/virtual-machines-workload-intranet-sharepoint-farm/CreateSPFarmHybridCloud.png
+A	articles/media/virtual-machines-workload-intranet-sharepoint-farm/SPFarm_Basic.png
+A	articles/media/virtual-machines-workload-intranet-sharepoint-farm/workload-spsqlao.png
+A	articles/media/virtual-machines-workload-intranet-sharepoint-overview/workload-spsqlao_05.png
+A	articles/media/virtual-machines-workload-intranet-sharepoint-phase1/workload-spsqlao_01.png
+A	articles/media/virtual-machines-workload-intranet-sharepoint-phase2/workload-spsqlao_02.png
+A	articles/media/virtual-machines-workload-intranet-sharepoint-phase3/workload-spsqlao_03.png
+A	articles/media/virtual-machines-workload-intranet-sharepoint-phase4/workload-spsqlao_04.png
+A	articles/virtual-machines-create-windows-powershell-service-manager.md
+A	articles/virtual-machines-datastax-enterprise-template.md
+A	articles/virtual-machines-datastax-template.md
+A	articles/virtual-machines-infrastructure-services-implementation-guidelines.md
+A	articles/virtual-machines-linux-choices-create-vm.md
+A	articles/virtual-machines-linux-create-custom.md
+A	articles/virtual-machines-manage-powershell-service-management.md
+A	articles/virtual-machines-manage-vms-azure-cli.md
+A	articles/virtual-machines-sql-server-use-premium-storage.md
+A	articles/virtual-machines-windows-choices-create-vm.md
+A	articles/virtual-machines-windows-create-custom.md
+A	articles/virtual-machines-windows-tutorial-classic-portal.md
+A	articles/virtual-machines-workload-deploy-vnet-config-tables.md
+A	articles/virtual-machines-workload-intranet-sharepoint-farm.md
+A	articles/virtual-machines-workload-intranet-sharepoint-overview.md
+A	articles/virtual-machines-workload-intranet-sharepoint-phase1.md
+A	articles/virtual-machines-workload-intranet-sharepoint-phase2.md
+A	articles/virtual-machines-workload-intranet-sharepoint-phase3.md
+A	articles/virtual-machines-workload-intranet-sharepoint-phase4.md
+A	articles/virtual-machines-workload-intranet-sharepoint-phase5.md
+
+commit ed6b52deb1c02cd93eff0bbebe33f8c8e76fc13d
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Fri Jul 3 20:38:26 2015 +0800
+
+    2015.6 Technical Content Refresh - VNet files check in.
+
+A	articles/media/virtual-networks-instance-level-public-ip/Figure1.png
+A	articles/media/virtual-networks-multiple-nics/Figure2.png
+A	articles/media/virtual-networks-multiple-nics/IC757773.png
+A	articles/media/virtual-networks-udr-overview/Figure1.png
+A	articles/media/virtual-networks-udr-overview/Figure2.png
+A	articles/virtual-networks-instance-level-public-ip.md
+A	articles/virtual-networks-multiple-nics.md
+A	articles/virtual-networks-reserved-private-ip.md
+A	articles/virtual-networks-reserved-public-ip.md
+A	articles/virtual-networks-udr-how-to.md
+A	articles/virtual-networks-udr-overview.md
+A	articles/virtual-networks-windows-server-active-directory-virtual-machines.md
+
+commit 263537473eebb509e5f0f6a06c1d57b9fa5910be
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Fri Jul 3 20:31:52 2015 +0800
+
+    2015.6 Technical Content Refresh - VPN&Xplat files check in
+
+A	articles/vpn-gateway-point-to-site-create.md
+A	articles/vpn-gateway-site-to-site-create.md
+A	articles/xplat-deploy-commands.md
+
+commit 1e4fc4de5d7b5677df84e882a062d55687034a70
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Fri Jul 3 20:27:27 2015 +0800
+
+    2015.6 Technical Content Refresh - Site-recovery&Storage files check in.
+
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_AddVM3.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_CreateResources1.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_CreateSite2.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_DownloadKey2.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_ProtectionGroup4.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_ProtectionGroupCreate3.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_Provider1.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_Provider2.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_Provider3.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_Provider4.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_Provider6.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_Provider7.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_QuickStartIcon.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_SelectKey.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_SelectScenario.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_TestFailoverNoNetwork.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SRHVSite_VMMultipleNic.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SR_HvVault.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/SR_QuickStartIcon.png
+A	articles/media/site-recovery-hyper-v-site-to-azure/VMProperties.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744913.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744914.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744915.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744916.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744917.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744918.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744919.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744920.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744921.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744922.png
+A	articles/media/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/IC744923.png
+A	articles/media/site-recovery-single-vmm/SingleVMMCluster.png
+A	articles/media/site-recovery-single-vmm/SingleVMMStandalone.png
+A	articles/media/site-recovery-storage-mapping/StorageMapping1.png
+A	articles/media/site-recovery-storage-mapping/StorageMapping2.png
+A	articles/site-recovery-best-practices.md
+A	articles/site-recovery-create-recovery-plans.md
+A	articles/site-recovery-faq.md
+A	articles/site-recovery-hyper-v-site-to-azure.md
+A	articles/site-recovery-network-mapping.md
+A	articles/site-recovery-overview.md
+A	articles/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises.md
+A	articles/site-recovery-single-vmm.md
+A	articles/site-recovery-storage-mapping.md
+A	articles/storage-properties-metadata.md
+A	articles/storage-samples.md
+
+commit 78ead77c75fb513a30092b081e19e7463153bac3
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Fri Jul 3 18:49:28 2015 +0800
+
+    2015.6 Technical Content Refresh - HDI files check in.
+
+A	articles/hdinsight-apache-storm-tutorial-get-started.md
+A	articles/hdinsight-hadoop-emulator-get-started.md
+A	articles/hdinsight-hadoop-linux-tutorial-get-started.md
+A	articles/hdinsight-hadoop-optimize-hive-query.md
+A	articles/hdinsight-hadoop-tutorial-get-started-windows.md
+A	articles/hdinsight-hadoop-use-blob-storage.md
+A	articles/hdinsight-hbase-tutorial-get-started.md
+A	articles/hdinsight-storm-example-topology.md
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/HDI.StorageAccount.QuickCreate.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/component-summary.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/configremotedesktop.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/connect.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/dashboard-link.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/enableremotedesktop.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/executors.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/hadoopcommandline.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/newstorm.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/quickcreate.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/stormui.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/stormuiboltsnspouts.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/submit-results.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/submit.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/topology-summary.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/wizard1.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/wizard2.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/wizard3.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/wizard4.png
+A	articles/media/hdinsight-apache-storm-tutorial-get-started/wizard5.png
+A	articles/media/hdinsight-hadoop-emulator-get-started/HDI.Emulator.Services.png
+A	articles/media/hdinsight-hadoop-emulator-get-started/hdi.emulator.connect.vs.dialog.png
+A	articles/media/hdinsight-hadoop-emulator-get-started/hdi.emulator.connect.vs.png
+A	articles/media/hdinsight-hadoop-emulator-get-started/hdi.emulator.vs.connected.png
+A	articles/media/hdinsight-hadoop-linux-tutorial-get-started/HDI.Linux.GetStartedFlow.png
+A	articles/media/hdinsight-hadoop-linux-tutorial-get-started/HDI.QuickCreateCluster.png
+A	articles/media/hdinsight-hadoop-linux-tutorial-get-started/HDI.StorageAccount.QuickCreate.png
+A	articles/media/hdinsight-hadoop-linux-tutorial-get-started/HDI.linux.connect.putty.png
+A	articles/media/hdinsight-hadoop-optimize-hive-query/partitioning_1.png
+A	articles/media/hdinsight-hadoop-optimize-hive-query/scaleout_1.png
+A	articles/media/hdinsight-hadoop-optimize-hive-query/scaleout_2.png
+A	articles/media/hdinsight-hadoop-optimize-hive-query/tez_1.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.ClusterStatus.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.CustomCreateCluster.AddOnStorage.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.CustomCreateCluster.ClusterUser.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.CustomCreateCluster.StorageAccount.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.CustomCreateCluster.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.GetStartedFlow.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.GettingStarted.MRJobOutput.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.GettingStarted.PowerQuery.ImportData.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.GettingStarted.PowerQuery.ImportData2.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.GettingStarted.PowerQuery.ImportData3.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.GettingStarted.RunMRJob.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.QuickCreateCluster.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.StorageAccount.QuickCreate.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.WordCountDiagram.gif
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.dashboard.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.dashboard.query.browse.output.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.dashboard.query.select.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.dashboard.query.select.result.output.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/HDI.dashboard.query.select.result.png
+A	articles/media/hdinsight-hadoop-tutorial-get-started-windows/hdi-get-started-video.png
+A	articles/media/hdinsight-hadoop-use-blob-storage/HDI.ASVArch.png
+A	articles/media/hdinsight-hadoop-use-blob-storage/HDI.CustomCreateStorageAccount.png
+A	articles/media/hdinsight-hadoop-use-blob-storage/HDI.PowerShell.BlobCommands.png
+A	articles/media/hdinsight-hadoop-use-blob-storage/HDI.QuickCreateCluster.png
+A	articles/media/hdinsight-hbase-tutorial-get-started/hdinsight-hbase-contacts.png
+A	articles/media/hdinsight-hbase-tutorial-get-started/hdinsight-hbase-file-browser.png
+A	articles/media/hdinsight-hbase-tutorial-get-started/hdinsight-hbase-hive-editor.png
+A	articles/media/hdinsight-hbase-tutorial-get-started/hdinsight-hbase-quick-create.png
+A	articles/media/hdinsight-hbase-tutorial-get-started/hdinsight-hbase-shell.png
+
+commit 3891c836fc27400504aa933ad592a6887eafe530
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Fri Jul 3 17:43:13 2015 +0800
+
+    2015.6 Technical Content Refresh - includes files check in.
+
+A	includes/custom-dns-web-site-buydomains-web-app.md
+M	includes/media-services-selector-advanced-encoding.md
+A	includes/media-services-selector-asset-delivery-policy.md
+A	includes/media-services-selector-connect.md
+A	includes/media-services-selector-content-key-auth-policy.md
+A	includes/media-services-selector-create-contentkey.md
+A	includes/media-services-selector-publish.md
+A	includes/powershell-setup.md
+M	includes/storage-container-naming-rules-include.md
+
+commit 255993011500960a51b37ab301666e74d237c2a5
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 2 22:35:42 2015 +0800
+
+    2015.6 Technical Content Refresh - AD files check in
+
+A	articles/active-directory-aadconnect-get-started.md
+A	articles/active-directory-aadconnect-getstarted.md
+A	articles/active-directory-aadconnect-how-it-works.md
+A	articles/active-directory-aadconnect-learn-more.md
+A	articles/active-directory-aadconnect-manage.md
+A	articles/active-directory-aadconnect-whats-next.md
+A	articles/active-directory-add-domain.md
+A	articles/active-directory-application-proxy-configure.md
+A	articles/active-directory-authentication-protocols.md
+A	articles/active-directory-authentication-scenarios.md
+A	articles/active-directory-branding-guidelines.md
+A	articles/active-directory-conditional-access.md
+A	articles/active-directory-developers-guide.md
+A	articles/active-directory-devquickstarts-android.md
+A	articles/active-directory-devquickstarts-angular.md
+A	articles/active-directory-devquickstarts-cordova.md
+A	articles/active-directory-devquickstarts-dotnet.md
+A	articles/active-directory-devquickstarts-ios.md
+A	articles/active-directory-devquickstarts-webapi-dotnet.md
+A	articles/active-directory-devquickstarts-webapi-nodejs.md
+A	articles/active-directory-devquickstarts-webapp-dotnet.md
+A	articles/active-directory-devquickstarts-windowsphone.md
+A	articles/active-directory-devquickstarts-xamarin.md
+A	articles/active-directory-how-applications-are-added.md
+A	articles/active-directory-how-to-integrate.md
+A	articles/active-directory-howto-tenant.md
+A	articles/active-directory-privileged-identity-management-configure.md
+A	articles/active-directory-reporting-api-getting-started.md
+A	articles/active-directory-self-service-signup.md
+A	articles/active-directory-service-limits-restrictions.md
+A	articles/active-directory-terminology.md
+A	articles/active-directory-token-and-claims.md
+A	articles/media/active-directory-aadconnect-get-started/aadConnect_Welcome.png
+A	articles/media/active-directory-aadconnect-get-started/express.png
+A	articles/media/active-directory-aadconnect-get-started/of.png
+A	articles/media/active-directory-aadconnect-getstarted/aadConnect_Welcome.png
+A	articles/media/active-directory-aadconnect-getstarted/express.png
+A	articles/media/active-directory-aadconnect-getstarted/of.png
+A	articles/media/active-directory-aadconnect-how-it-works/AADConnectStack.png
+A	articles/media/active-directory-aadconnect-how-it-works/Vid.png
+A	articles/media/active-directory-aadconnect-manage/Synch_Rule.png
+A	articles/media/active-directory-aadconnect-manage/synch2.png
+A	articles/media/active-directory-aadconnect-manage/synch3.png
+A	articles/media/active-directory-aadconnect-whats-next/Synch_Rule.png
+A	articles/media/active-directory-aadconnect-whats-next/synch2.png
+A	articles/media/active-directory-aadconnect-whats-next/synch3.png
+A	articles/media/active-directory-authentication-scenarios/application_types_and_scenarios.png
+A	articles/media/active-directory-authentication-scenarios/basics_of_auth_in_aad.png
+A	articles/media/active-directory-authentication-scenarios/daemon_server_app_to_web_api.png
+A	articles/media/active-directory-authentication-scenarios/native_app_to_web_api.png
+A	articles/media/active-directory-authentication-scenarios/single_page_app.png
+A	articles/media/active-directory-authentication-scenarios/web_app_to_web_api.png
+A	articles/media/active-directory-authentication-scenarios/web_browser_to_web_api.png
+A	articles/media/active-directory-branding-guidelines/add-to-my-org.png
+A	articles/media/active-directory-branding-guidelines/work-account-with-explaination.png
+A	articles/media/active-directory-branding-guidelines/work-account.png
+A	articles/media/active-directory-branding-guidelines/work-or-school-account.png
+A	articles/media/active-directory-conditional-access/condaccoverviewvsdx1.png
+A	articles/media/active-directory-how-applications-are-added/HowAppsAreAddedToAAD.jpg
+A	articles/media/active-directory-how-applications-are-added/IntegratedAppSettings.jpg
+A	articles/media/active-directory-privileged-identity-management-configure/PIM_ActivationHistory.png
+A	articles/media/active-directory-privileged-identity-management-configure/PIM_AddRemove.png
+A	articles/media/active-directory-privileged-identity-management-configure/PIM_Dash.png
+A	articles/media/active-directory-privileged-identity-management-configure/PIM_RequestActivation.png
+A	articles/media/active-directory-privileged-identity-management-configure/PIM_RoleActivationSettings.png
+A	articles/media/active-directory-privileged-identity-management-configure/Search_PIM.png
+A	articles/media/active-directory-self-service-signup/SelfServiceSignUpControls.png
+
+commit 7b655814dbdc4f4dda4bac9da8ebb7138f4cd568
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 2 21:30:54 2015 +0800
+
+    2015.6 Technical Content Refresh - Media-Services files check in.
+
+A	articles/media-services-castlabs-integration.md
+A	articles/media-services-embed-mpeg-dash-in-html5.md
+A	articles/media/media-services-castlabs-integration/media-services-castlabs-integration.png
+
+commit 072a60f57648d1f292a644e3038b87ee8019fc67
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 2 21:23:48 2015 +0800
+
+    2015.6 Technical Content Refresh - Azure SDK check in
+
+A	articles/azure-sdk-dotnet-release-notes-2_6.md
+
+commit b2a8809b41938156e891abe0984e94cb96037bf5
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 2 21:20:22 2015 +0800
+
+    2015.6 Technical Content Refresh - Scheduler&Service-bus files check in
+
+A	articles/scheduler-intro.md
+A	articles/scheduler-powershell-reference.md
+A	articles/service-bus-event-hubs-manage-with-ps.md
+
+commit 8097aa28c56fba90fbdf7de61428d3b1f73ec545
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 2 21:16:51 2015 +0800
+
+    2015.6 Technical Content Refresh - Backup files check in
+
+A	articles/backup-azure-restore-vms.md
+A	articles/backup-azure-vms-introduction.md
+A	articles/media/backup-azure-restore-vms/backup-disable-protection.png
+A	articles/media/backup-azure-restore-vms/backup-job.png
+A	articles/media/backup-azure-restore-vms/backup-recover2.png
+A	articles/media/backup-azure-restore-vms/backup-recovery1.png
+A	articles/media/backup-azure-restore-vms/backup-vmdetails.png
+A	articles/media/backup-azure-restore-vms/backup-vmpolicy.png
+A	articles/media/backup-azure-vms-introduction/backup_vaultcreate.png
+A	articles/media/backup-azure-vms-introduction/backup_vaultslist.png
+A	articles/media/backup-azure-vms-introduction/creating-vault.png
+A	articles/media/backup-azure-vms-introduction/vault-policy-vm.png
+A	articles/media/backup-azure-vms-introduction/vmbackup-architecture.png
+A	articles/media/backup-azure-vms-introduction/vmbackup-instructions.png
+
+commit 6a003a468245f68ef6d070ffa704822bc1c1c8a2
+Author: Eric Chen <loveunicom@outlook.com>
+Date:   Thu Jul 2 21:06:22 2015 +0800
+
+    2015.6 Technical Content Refresh - Automation files check in
+
+A	articles/automation-dsc-overview.md
+A	articles/automation-graphical-authoring-intro.md
+A	articles/automation-hybrid-runbook-worker.md
+A	articles/automation-orchestrator-migration.md
+A	articles/automation-webhooks.md
+A	articles/media/automation-dsc-overview/AADSC_1.png
+A	articles/media/automation-dsc-overview/AADSC_2.png
+A	articles/media/automation-dsc-overview/AADSC_3.png
+A	articles/media/automation-dsc-overview/AADSC_4.png
+A	articles/media/automation-dsc-overview/AADSC_5.png
+A	articles/media/automation-graphical-authoring-intro/activity-output-datasource.png
+A	articles/media/automation-graphical-authoring-intro/add-to-canvas.png
+A	articles/media/automation-graphical-authoring-intro/authentication-activities.png
+A	articles/media/automation-graphical-authoring-intro/authentication-activity-output.png
+A	articles/media/automation-graphical-authoring-intro/conditional-links.png
+A	articles/media/automation-graphical-authoring-intro/create-link.png
+A	articles/media/automation-graphical-authoring-intro/cycle.png
+A	articles/media/automation-graphical-authoring-intro/graphical-editor.png
+A	articles/media/automation-graphical-authoring-intro/junction.png
+A	articles/media/automation-graphical-authoring-intro/parameter-set.png
+A	articles/media/automation-graphical-authoring-intro/runbook-edit-add-input.png
+A	articles/media/automation-graphical-authoring-intro/runbook-edit-input-output.png
+A	articles/media/automation-graphical-authoring-intro/runbook-edit-publish.png
+A	articles/media/automation-graphical-authoring-intro/runbook-edit-revert-published.png
+A	articles/media/automation-graphical-authoring-intro/runbook-edit-test-pane.png
+A	articles/media/automation-graphical-authoring-intro/runbook-statuses.png
+A	articles/media/automation-graphical-authoring-intro/runbook-test-start.png
+A	articles/media/automation-hybrid-runbook-worker/automation-hybrid-runbook-worker-components.png
+A	articles/media/automation-hybrid-runbook-worker/automation-hybrid-runbook-worker-overview.png
+A	articles/media/automation-hybrid-runbook-worker/elements-panel-keys.png
+A	articles/media/automation-webhooks/copy-webhook-url.png
+A	articles/media/automation-webhooks/webhook-request-body.png
+A	articles/media/automation-webhooks/webhook-request-headers.png
+A	articles/media/automation-webhooks/webhook-request-response.png
+A	articles/media/automation-webhooks/webhookdata.png
+A	articles/media/automation-webhooks/webhooks-button.png
+A	articles/media/automation-webhooks/webhooks-overview.png
