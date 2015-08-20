@@ -32,13 +32,13 @@ class Commit:
         if self.type==None:
             m = re.match(r"\[(?P<commitType>[a-z]+)\]-(?P<message>.+)", self.message.title, re.I)
             if m == None:
-                self.__blurGetType()
+                self.__fuzzyGetType()
             else:
                 md = m.groupdict()
                 self.type = md["commitType"].strip().lower()
         return self.type
 
-    def __blurGetType(self):
+    def __fuzzyGetType(self):
         for keyword in Commit.BUGFIX_KEYWORD:
             if re.match(r'.*'+keyword+'.*', self.message.title, re.I):
                 self.type = 'bugfix'
@@ -54,14 +54,14 @@ class Commit:
         if self.reportedDate == None:
             m = re.match(r"\[(?P<commitType>[a-z]+)\]-(?P<date>[0-9]{4}\/[0-9]{2}\/[0-9]{2})-(?P<message>.+)", self.message.title, re.I)
             if m == None:
-                self.__blurGetReportedDate()
+                self.__fuzzyGetReportedDate()
             else:
                 md = m.groupdict()
                 self.type = md["commitType"]
                 self.reportedDate = datetime.strptime(md["date"], "%Y/%m/%d")
         return self.reportedDate
     
-    def __blurGetReportedDate(self):
+    def __fuzzyGetReportedDate(self):
         for reg in Commit.REPORTED_DATE_REGS:
             m = re.match(reg, self.message.description.replace("\n", " "))
             if m!=None:
