@@ -4,7 +4,7 @@ Generate bugfix and deploy reports from the log file
 ### Preprocessing
 1. The log file can be generated from:
 
-    git log --encoding GBK --since=2015-07-01 --until=2015-08-01 --stat --name-status | out-file log.txt -Encoding utf8
+    `git log --encoding GBK --since=2015-07-01 --until=2015-08-01 --stat --name-status | out-file log.txt -Encoding utf8`
 
 2. The encoding mothods under windows are confusing and frustrating. If you get a encoding error, please open the log file, copy the content to a new file, and save the new file with utf8.
 
